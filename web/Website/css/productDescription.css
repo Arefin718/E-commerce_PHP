@@ -1,0 +1,81 @@
+.productDescription{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.productDescription img{
+    height: 400px;
+    width: 400px;
+    margin: 25px 25px;
+}
+
+.productDescription .priceDescription{
+    width: 450px;
+}
+.productDescription .priceDescription h2{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.productDescription .priceDescription h3{
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.productDescription .priceDescription p{
+    font-size: 15px;
+    line-height: 30px;
+
+}
+
+.productDescription .quantity{
+    padding-left: 50px;
+}
+
+.productDescription .quantity h1{
+    font-size: 18px;
+}
+
+.productDescription .quantity input[type="text"]{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 24px;
+    width: 120px;
+    height: 30px;
+}
+.productDescription  input[type="button"]{
+    font-size: 18px;
+    margin-left: 0px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: 1px solid red;
+    position: absolute;
+}
+.productDescription  input[type="button"]:hover{
+    background-color: red;
+    color: white;
+    transition: all 0.3s;
+}
+
+.productDescription #notification{
+    color: green;
+    margin-bottom: 50px;
+    font-size: 17px;
+    position: absolute;
+}
+
+
+.productDescription #productAvailability{
+    color: green;
+    font-size: 22px;
+    padding-top: 35px;
+    padding-left: 20px;
+    font-weight: 700;
+}
+
+.productDescription #availability{
+    color: red;
+    position: absolute;
+    margin-top: 8px;
+    font-size: 18px;
+}

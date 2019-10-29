@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ol, ul, li{
+    list-style-type: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+img{
+    border: 0;
+}
+
+.wishlist{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wishlist table{
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 50px 0px;
+}
+
+.wishlist table th{
+    font-size: 18px;
+    padding: 20px;
+    background-color: #0091D2;
+    color: white;
+    font-weight: 800;
+}
+.wishlist table tr td{
+    padding: 20px 40px;
+}
+
+.wishlist table tr:nth-of-type(odd) {
+    background-color: lightblue;
+}
+.wishlist table tr:nth-of-type(even) {
+    background-color: aliceblue;
+}

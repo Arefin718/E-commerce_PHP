@@ -1,0 +1,67 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css"  href="css/productUpload.css" >
+</head>
+<body>
+<div class="display">
+    <h1>Product Upload</h1>
+        <form  method="post">
+            <table>
+
+                <tr>
+                    <td>ID</td>
+                    <td><input type="text" name="id"></td>
+                </tr>
+
+                <tr>
+                    <td>Product Name</td>
+                    <td><input type="text" name="pname"></td>
+                </tr>
+
+                <tr>
+                    <td>Price</td>
+                    <td><input type="text" name="price"></td>
+                </tr>
+
+                <tr>
+                    <td>Description</td>
+                    <td><textarea id="description"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td>Quantity</td>
+                    <td><input type="text" name="quantity"></td>
+                </tr>
+
+                <tr>
+                    <td>Category</td>
+                    <td>
+                    <select name="cat">
+                        <option>clothing</option>
+                        <option>electronics</option>
+                        <option>book</option>
+                        <option>smartphone</option>
+                        <option>others</option>
+                        <option>accesories</option>
+                        <option>gaming</option>
+
+                    </select>
+                </td>
+                </tr>
+
+                <tr>
+                    <td>Image</td>
+                    <td><input type="file" name="image"></td>
+                </tr>
+
+                <tr><td colspan="2" align="right">
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Upload">
+                </td></tr>
+
+
+            </table>
+        </form>
+</div>
+</body>
+</html>

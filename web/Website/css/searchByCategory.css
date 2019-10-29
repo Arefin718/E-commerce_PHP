@@ -1,0 +1,44 @@
+.searchByCategory table{
+    margin: 90px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.searchByCategory table table{
+    margin: 40px 18px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+
+.searchByCategory table table:hover{
+    background-color: lightgrey;
+    border-radius: 15px;
+    border: 2px solid red;
+    transition: all 0.3s;
+}
+
+.searchByCategory table table{
+    font-size: 15px;
+}
+
+.searchByCategory table tr td h1{
+    color: blue;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.searchByCategory table tr td h1:hover{
+    color: red;
+}
+
+.searchByCategory table tr td{
+    margin: 0px 10px;
+}
+
+.searchByCategory table tr td table tr{
+    padding: 10px;
+}
+.searchByCategory table tr td table tr td{
+    padding: 10px 32px;
+}

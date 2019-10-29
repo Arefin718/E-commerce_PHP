@@ -1,0 +1,86 @@
+<html>
+	<head>
+		
+	
+	</head>
+	
+	<body>
+		
+
+
+       <center>
+           <h2>1.Your Address</h2>
+
+        <form>
+
+
+            <table cellpadding="20">
+                <tr>
+                    <td>Name*</td>
+                    <td> <input type="text" /></td>
+                </tr>
+
+                <tr>
+                    <td>Address* </td>
+                    <td>  <textarea></textarea></td>
+                </tr>
+
+                <tr>
+                    <td> Mobile Number*</td>
+                    <td>  <input type="text"/></td>
+                </tr>
+
+                <tr>
+                    <td> Select Region*</td>
+                    <td>
+                        <select>
+                            <option>Dhaka</option>
+                            <option>Khulna</option>
+                            <option>Chitagong</option>
+                            <option>Rajshahi</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>City*</td>
+                    <td><input type="text"/></td>
+                </tr>
+
+            </table>
+
+            
+            <input type="button" value="credit card" id="card.html" onclick="request(this.id)"/>
+            <input type="button" value="BKASH" id="bkash.html" onclick="request(this.id)"/>
+            <br/><br/>
+            
+            <div id="display"></div>
+
+            <div  class="checkOutTag"><a href="checkout.php">Check Out</a></div>
+            
+        </form>
+
+       </center>
+	
+	</body>
+
+    <script>
+        function request(requestPage){
+    var obj = new XMLHttpRequest();
+
+
+    obj.open('GET', requestPage, true);
+    obj.send();
+
+    obj.onreadystatechange = function(){
+        if(obj.readyState==4){
+            var display = document.getElementById("display");
+            display.innerHTML = obj.responseText;
+        }
+
+    }
+
+}
+    </script>
+
+</html>

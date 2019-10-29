@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+    padding:0px;
+    outline:0px;
+}
+
+img{
+    border:0px;
+}
+
+ul, li{
+    list-style-type:none;
+}
+
+a{
+    text-decoration:none;
+    outline: none;
+}
+
+.social{
+    position: fixed;
+    left: 0;
+    bottom: 25%;
+}
+.social img{
+    height: 30px;
+    width: 30px;
+    float: right;
+}
+
+.social ul li{
+    margin-top: 2px;
+    height: 35px;
+    width: 40px;
+    background-color: lightgrey;
+    border: 1px solid red;
+}
+
+.social ul li:hover{
+    width: 48px;
+    transition: all 0.5s;
+    background-color: seashell;
+}

@@ -1,0 +1,76 @@
+.cart table{
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 50px 0px;
+}
+
+.cart table th{
+    font-size: 18px;
+    padding: 20px;
+    background-color: #0091D2;
+    color: white;
+    font-weight: 800;
+}
+.cart table tr td{
+    padding: 20px 40px;
+}
+
+.cart table tr:nth-of-type(odd) {
+    background-color: lightblue;
+}
+.cart table tr:nth-of-type(even) {
+    background-color: aliceblue;
+}
+
+.checkOutTag{
+    height: 10px;
+    width:110px;
+    margin: 0 auto;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.checkOutTag a{
+    padding: 7px 7px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+
+.checkOutTag a:hover{
+    background-color: red;
+    color: white;
+}
+
+
+.excceedQuantity{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.excceedQuantity h2{
+    text-align: center;
+    color: red;
+}
+
+.excceedQuantity table{
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.excceedQuantity table tr th{
+    font-weight: 800;
+    padding: 15px 30px;
+    background-color: #0091D2;
+    color: white;
+}
+
+
+
+.excceedQuantity table tr td{
+    text-align: center;
+    padding: 15px 30px;
+    color: red;
+    background-color: lightgrey;
+}

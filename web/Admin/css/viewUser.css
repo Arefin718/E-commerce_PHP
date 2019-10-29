@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ol, ul{
+    list-style-type: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+img{
+    border: 0;
+}
+
+.users{
+    width: 100%;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+
+.users h1{
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.users table{
+    margin: 0 auto;
+    border: 1px solid black;
+    font-size: 15px;
+}
+.users table tr th{
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 400;
+}
+
+.users table tr td,th{
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.users table tr:nth-child(odd){
+     background-color: #F2F2F2;
+}
+
+.users table tr:nth-child(even){
+    background-color: white;
+}
+
+.users table tr #heading{
+    background-color: #4CAF50;
+}
+
+.users .search input[type="text"]{
+    height: 25px;
+    width: 259px;
+    font-size: 15px;
+    margin-left: 0px;
+    border: 1px solid #4CAF50;
+}
+
+.users .search span{
+    font-size: 15px;
+}
+
+.users .search  table{
+    border: 0;
+    background-color: transparent;
+}
+
+.users .search  table input[type="button"]{
+    height: 25px;
+    width: 70px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.users .search select{
+    text-indent: 15px;
+    font-size: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+.users .search table tr{
+    background-color: transparent;
+}
+
+#suggestion{
+    border: 1px solid #000;
+    width: 248px;
+    margin-left: 0px;
+    position: absolute;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 800;
+}
+
+#suggestion  ul{
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+
+#suggestion ul li{
+    display: block;
+    background-color: white;
+    float: left;
+    position: relative;
+    width: 241px;
+    padding: 5px;
+}
+
+#suggestion ul li:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.4s;
+}
+

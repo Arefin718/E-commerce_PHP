@@ -1,0 +1,34 @@
+.products .product table{
+    margin: 0 auto;
+    padding-top: 10px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.products .product table tr td img{
+    height: 150px;
+    width: 150px;
+}
+
+.products .product table tr td{
+    padding: 8px 14px;
+    font-size: 15px;
+    width: 207px;
+    height: 35px;
+    text-align: center;
+    border-radius: 10px;
+ }
+
+.products .product table tr td table{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.products .product table tr td table:hover{
+    border: 2px solid red;
+    background-color: lightgrey;
+    transition: all 0.4s;
+}
+
+
+.products .product table tr td table tr td{
+        border: 0;
+}

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ol, ul{
+    list-style-type: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+img{
+    border: 0;
+}
+
+.display{
+    width: 85%;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+
+.display h1{
+    text-align: center;
+    font-size: 24px;
+    padding: 30px;
+}
+
+.display table{
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.display table tr td{
+    padding: 2px;
+}
+
+.display table tr td input[type="text"], input[type="file"]{
+    height: 35px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.display table tr td #description{
+    height: 140px;
+    width: 600px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.display table tr td input[type="text"]:focus, .display table tr td textarea:focus{
+    box-shadow: 0 0 3px 0 deepskyblue;
+}
+
+.display table tr td select{
+    height: 35px;
+    width: 180px;
+    text-transform: capitalize;
+    text-indent: 20px;
+    font-size: 20px;
+
+}
+.display table tr td select option{
+    text-align: center;
+    font-size: 20px;
+}
+
+.display table tr td input[type="submit"],input[type="reset"]{
+    height: 28px;
+    width: 115px;
+    font-size: 20px;
+}
